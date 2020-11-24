@@ -1,6 +1,6 @@
 Information About the Post
 <ul>
-  <% render partial: "authors/author", locals: {post_author: @author}%>
+  <% render partial: "authors/author", locals: {post_author: @post.author}%>
 </ul>
 <%= @post.title %>
 <%= @post.content %>
