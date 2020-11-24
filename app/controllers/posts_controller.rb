@@ -4,7 +4,5 @@ class PostsController < ApplicationController
     @author = @post.author
   end
 
-  def index
-    @posts = Post.all
-  end
+  
 end
