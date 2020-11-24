@@ -4,5 +4,5 @@ class PostsController < ApplicationController
     @author = @post.author
   end
 
-  
+
 end
